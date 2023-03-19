@@ -2,7 +2,7 @@
 
 # About
 
-# A little practice using React, React-Router-Dom-V6.9 Version and Bootstrap
+A little practice using React, React-Router-Dom-V6.9 Version and Bootstrap
 
 # Link 
 
