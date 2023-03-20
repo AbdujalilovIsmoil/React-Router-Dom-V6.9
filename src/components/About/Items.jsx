@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Items = ({ name, id }) => {
-  console.log(name);
   return (
     <>
       <Link to={`/about/${id}`} className="list-group-item">

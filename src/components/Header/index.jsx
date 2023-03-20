@@ -4,27 +4,32 @@ import { NavLink } from "react-router-dom";
 const index = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar bg-light ">
         <div className="container">
-          <NavLink className="fs-3 text-uppercase text-dark" to="/">
-            Router
+          <NavLink
+            style={{ fontSize: "20px" }}
+            className="logo text-dark"
+            to="/"
+          >
+            Navbar
           </NavLink>
-          <ul className="nav-list d-flex align-items-center gap-3 mt-2">
-            <li className="nav-item list-unstyled">
+          <ul
+            style={{ marginTop: "20px" }}
+            className="list d-flex align-items-center gap-4"
+          >
+            <li className="list-item list-unstyled">
               <NavLink
-                className={({ isActive }) =>
-                  isActive ? "nav-link fs-5 text-danger" : "nav-link fs-5"
-                }
+                style={{ fontSize: "18px" }}
+                className="list-item__link text-dark"
                 to="/"
               >
                 Home
               </NavLink>
             </li>
-            <li className="nav-item list-unstyled">
+            <li className="list-item list-unstyled">
               <NavLink
-                className={({ isActive }) =>
-                  isActive ? "nav-link fs-5 text-danger" : "nav-link fs-5"
-                }
+                style={{ fontSize: "18px" }}
+                className="list-item__link text-dark"
                 to="/about"
               >
                 About
